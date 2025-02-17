@@ -4,6 +4,8 @@ import { LoginContext } from '../context/LoginContext'
 import { usaTema } from '../context/ClaroOscuroProvider'
 import { BotonTema } from './BotonTema'
 import { Buscador } from './Buscador'
+import hola from '../Imagenes/hola.png'
+import user from '../Imagenes/user.png'
 
 export const NavBar = () => {
     const context=useContext(LoginContext);
@@ -58,10 +60,10 @@ export const NavBar = () => {
                         <BotonTema/>
                     </div>
                     <NavLink to='/Login' className="nav-link active p-0 " style={{width:'45px'}}>
-                        <img src="/Imagenes/user.png" alt="user" style={iconStyle}/>
+                        <img src="user" alt="user" style={iconStyle}/>
                     </NavLink>
                     <button type='button' className='btn p-0' data-bs-toggle="modal" data-bs-target="#exampleModal" style={ {width:'50px'}}>
-                        <img src="/Imagenes/hola.png" alt="hello" className='float-end 'style={iconStyle} />
+                        <img src="hola" alt="hello" className='float-end 'style={iconStyle} />
                     </button>
                 </div>
             </div>
