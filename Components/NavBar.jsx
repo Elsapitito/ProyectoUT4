@@ -58,10 +58,10 @@ export const NavBar = () => {
                         <BotonTema/>
                     </div>
                     <NavLink to='/Login' className="nav-link active p-0 " style={{width:'45px'}}>
-                        <img src="\Imagenes\user.png" alt="user" style={iconStyle}/>
+                        <img src="/Imagenes/user.png" alt="user" style={iconStyle}/>
                     </NavLink>
                     <button type='button' className='btn p-0' data-bs-toggle="modal" data-bs-target="#exampleModal" style={ {width:'50px'}}>
-                        <img src="\Imagenes\hola.png" alt="hello" className='float-end 'style={iconStyle} />
+                        <img src="/Imagenes/hola.png" alt="hello" className='float-end 'style={iconStyle} />
                     </button>
                 </div>
             </div>
